@@ -75,7 +75,7 @@ const About = () => {
                 </div>
 
                 {/* Images Section */}
-                <div className="mt-16">
+                {/* <div className="mt-16">
                     <h3 className="text-3xl font-semibold text-center text-gray-800 mb-8">
                         Our Work in Action
                     </h3>
@@ -97,7 +97,7 @@ const About = () => {
                             </div>
                         ))}
                     </div>
-                </div>
+                </div> */}
 
                 {/* Additional Image Section */}
                 <div className="mt-16 text-center">
