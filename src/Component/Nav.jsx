@@ -44,9 +44,8 @@ const Nav = () => {
 
         {/* Links */}
         <ul
-          className={`md:flex md:items-center md:gap-6 absolute md:static top-16 left-0 w-full md:w-auto bg-green-700 md:bg-transparent p-4 md:p-0 z-40 transition-all duration-300 ease-in-out ${
-            mobileMenuOpen ? "block" : "hidden"
-          }`}
+          className={`md:flex md:items-center md:gap-6 absolute md:static top-16 left-0 w-full md:w-auto bg-green-700 md:bg-transparent p-4 md:p-0 z-40 transition-all duration-300 ease-in-out ${mobileMenuOpen ? "block" : "hidden"
+            }`}
         >
           <li>
             <a
@@ -78,25 +77,26 @@ const Nav = () => {
             {dropdownOpen && (
               <ul className="absolute md:absolute md:top-8 top-full left-0 bg-white text-black w-64 shadow-lg rounded p-2 z-50">
                 <li className="py-1 px-2 hover:bg-gray-100">
-                  <a href="#" onClick={handleLinkClick}>
-                    Environment & Climate Change
-                  </a>
-                </li>
-                <li className="py-1 px-2 hover:bg-gray-100">
-                  <a href="#" onClick={handleLinkClick}>
-                    Peace & Human Security
-                  </a>
-                </li>
-                <li className="py-1 px-2 hover:bg-gray-100">
-                  <a href="#" onClick={handleLinkClick}>
+                  <a href="/entrepreneurship" onClick={handleLinkClick}>
                     Entrepreneurship
                   </a>
                 </li>
                 <li className="py-1 px-2 hover:bg-gray-100">
-                  <a href="#" onClick={handleLinkClick}>
+                  <a href="education" onClick={handleLinkClick}>
                     Education
                   </a>
                 </li>
+                <li className="py-1 px-2 hover:bg-gray-100">
+                  <a href="/environment" onClick={handleLinkClick}>
+                    Environment & Climate Change
+                  </a>
+                </li>
+                <li className="py-1 px-2 hover:bg-gray-100">
+                  <a href="/peace" onClick={handleLinkClick}>
+                    Peace & Human Security
+                  </a>
+                </li>
+
               </ul>
             )}
           </li>
