@@ -2,6 +2,8 @@ import React from 'react'
 import Nav from './Component/Nav'
 import Home  from "./Component/Pages/Home"
 import About from './Component/Pages/About'
+import VoicesOfImpact from './Component/Pages/VoicesOfImpact'
+import MeetOurTeam from './Component/Pages/MeetOurTeam'
 import { Routes, Route } from "react-router-dom"; // Import Route and Routes
 
 
@@ -23,12 +25,12 @@ const App = () => {
               <div id="about">
                 <About />
               </div>
-              {/* <div id="service">
-                <Service />
-              </div> */}
-              {/* <div id="team">
-                <Team1 />
-              </div> */}
+              <div id="bold-visionary">
+                <VoicesOfImpact />
+              </div>
+              <div id="meet-team">
+                <MeetOurTeam />
+              </div>
             </>
           }
         />
