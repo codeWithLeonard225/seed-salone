@@ -1,5 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { ChevronDown, Menu, X } from "lucide-react";
+import { Link } from "react-router-dom";
+
 import img from "/SEED Logojpg.jpg";
 
 const Nav = () => {
@@ -66,6 +68,7 @@ const Nav = () => {
             </a>
           </li>
 
+         
           {/* Dropdown */}
           <li className="relative" ref={dropdownRef}>
             <button
@@ -75,31 +78,31 @@ const Nav = () => {
               Areas of Intervention <ChevronDown size={16} />
             </button>
             {dropdownOpen && (
-              <ul className="absolute md:absolute md:top-8 top-full left-0 bg-white text-black w-64 shadow-lg rounded p-2 z-50">
+              <ul className="absolute md:top-8 top-full left-0 bg-white text-black w-64 shadow-lg rounded p-2 z-50">
                 <li className="py-1 px-2 hover:bg-gray-100">
-                  <a href="/entrepreneurship" onClick={handleLinkClick}>
+                  <Link to="/entrepreneurship" onClick={handleLinkClick}>
                     Entrepreneurship
-                  </a>
+                  </Link>
                 </li>
                 <li className="py-1 px-2 hover:bg-gray-100">
-                  <a href="education" onClick={handleLinkClick}>
+                  <Link to="/education" onClick={handleLinkClick}>
                     Education
-                  </a>
+                  </Link>
                 </li>
                 <li className="py-1 px-2 hover:bg-gray-100">
-                  <a href="/environment" onClick={handleLinkClick}>
+                  <Link to="/environment" onClick={handleLinkClick}>
                     Environment & Climate Change
-                  </a>
+                  </Link>
                 </li>
                 <li className="py-1 px-2 hover:bg-gray-100">
-                  <a href="/peace" onClick={handleLinkClick}>
+                  <Link to="/peace" onClick={handleLinkClick}>
                     Peace & Human Security
-                  </a>
+                  </Link>
                 </li>
-
               </ul>
             )}
           </li>
+
 
           <li>
             <a
