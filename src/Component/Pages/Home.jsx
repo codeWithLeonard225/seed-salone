@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <>
     <Nav/>
-    <section id="home"
+    <section 
       className="bg-top bg-cover bg-no-repeat min-h-screen flex items-center justify-center px-6"
       style={{
         backgroundImage: "url('/bgImg.jpg')", // Replace with your actual image

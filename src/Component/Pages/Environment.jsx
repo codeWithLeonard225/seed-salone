@@ -1,11 +1,11 @@
 // pages/Environment.jsx
 import React from "react";
-import Nav from "../Nav";
+import Nav2 from "../Nav2";
 
 const Environment = () => {
   return (
     <>
-      <Nav />
+      <Nav2 />
       <section
         id="environment"
         className="min-h-screen bg-white py-12 px-4 sm:px-6 lg:px-8"

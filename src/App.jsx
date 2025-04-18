@@ -17,6 +17,7 @@ const App = () => {
   return (
     
     <Routes>
+       
       <Route path="/entrepreneurship" element={<Entrepreneurship />} />
       <Route path="/education" element={<Education />} />
       <Route path="/environment" element={<Environment />} />
@@ -41,9 +42,6 @@ const App = () => {
               </div>
               <div id="contact-us">
                 <ContactUs />
-              </div>
-              <div id="peace">
-                <PeaceAndSecurity />
               </div>
             </>
           }

@@ -6,7 +6,7 @@ const About = () => {
         <section id="about" className="min-h-screen bg-gray-50 py-12 px-6">
             <div className="container mx-auto max-w-4xl text-left">
                 {/* About Us Header */}
-                <h1 className="text-4xl sm:text-5xl font-bold text-center text-green-700 mb-10">
+                <h1 className="text-4xl sm:text-5xl font-bold text-center text-green-700 mb-10 pt-5">
                     About Us
                 </h1>
 

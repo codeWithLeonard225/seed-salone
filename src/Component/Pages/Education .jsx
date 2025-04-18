@@ -1,11 +1,11 @@
 // pages/Education.jsx
 import React from "react";
-import Nav from "../Nav";
+import Nav2 from "../Nav2";
 
 const Education = () => {
   return (
     <>
-      <Nav />
+      <Nav2 />
       <section id="education" className="min-h-screen bg-white py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-green-700 text-center mb-6 pt-8 ">

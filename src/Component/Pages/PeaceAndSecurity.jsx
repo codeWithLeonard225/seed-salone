@@ -1,11 +1,11 @@
 // pages/PeaceAndSecurity.jsx
 import React from "react";
-import Nav from "../Nav";
+import Nav2 from "../Nav2";
 
 const PeaceAndSecurity = () => {
   return (
     <>
-      <Nav />
+      <Nav2 />
       <section
         id="peace-and-security"
         className="min-h-screen bg-white py-12 px-4 sm:px-6 lg:px-8"
