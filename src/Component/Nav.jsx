@@ -99,6 +99,11 @@ const Nav = () => {
                     Peace & Human Security
                   </Link>
                 </li>
+                <li className="py-1 px-2 hover:bg-gray-100">
+                  <Link to="/founderMessage" onClick={handleLinkClick}>
+                   Founder's Message
+                  </Link>
+                </li>
               </ul>
             )}
           </li>

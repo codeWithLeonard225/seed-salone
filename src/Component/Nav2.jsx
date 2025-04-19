@@ -83,6 +83,15 @@ const Nav2 = () => {
               Peace & Human Security
             </Link>
           </li>
+          <li>
+            <Link
+              to="/founderMessage"
+              onClick={handleLinkClick}
+              className="hover:underline block py-1"
+            >
+               Founder's Message
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>

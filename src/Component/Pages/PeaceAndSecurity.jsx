@@ -1,4 +1,3 @@
-// pages/PeaceAndSecurity.jsx
 import React from "react";
 import Nav2 from "../Nav2";
 
@@ -44,10 +43,21 @@ const PeaceAndSecurity = () => {
 
           <div className="mt-12 sm:mt-16 text-center px-2">
             <img
-              src="/peace.jpg" // Replace with an image related to peace or a community dialogue
+              src="/peace.jpg"
               alt="Community dialogue promoting peace in Sierra Leone"
               className="w-full max-w-3xl mx-auto rounded-xl shadow-md object-cover transition-transform duration-300 hover:scale-105"
             />
+
+            <div className="mt-4">
+              <a
+                href="https://www.youtube.com/watch?v=7aFUbDGUETo"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-green-700 hover:underline text-lg font-medium"
+              >
+                📺 Open Link to read about our work
+              </a>
+            </div>
           </div>
         </div>
       </section>

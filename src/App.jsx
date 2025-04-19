@@ -10,6 +10,7 @@ import Entrepreneurship from './Component/Pages/Entrepreneurship '
 import Education from './Component/Pages/Education '
 import Environment from './Component/Pages/Environment'
 import PeaceAndSecurity from './Component/Pages/PeaceAndSecurity'
+import FounderMessage from './Component/Pages/FounderMessage'
 
 
 
@@ -22,6 +23,7 @@ const App = () => {
       <Route path="/education" element={<Education />} />
       <Route path="/environment" element={<Environment />} />
       <Route path="/peace" element={<PeaceAndSecurity />} />
+      <Route path="/founderMessage" element={<FounderMessage />} />
       {/* Add other routes here */}
 
       <Route
